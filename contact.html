@@ -25,6 +25,23 @@
   <!-- Main Stylesheet File -->
 	<link rel="stylesheet" href="css/stylee.css">
   <link href="css/style.css" rel="stylesheet">
+  
+<script>
+  //--------------------------------
+// This code compares two fields in a form and submit it
+// if they're the same, or not if they're different.
+//--------------------------------
+function checkEmail(theForm) {
+    if (theForm.EMAIL_1.value != theForm.EMAIL_2.value)
+    {
+        alert('Those emails don\'t match!');
+        return false;
+    } else {
+        return true;
+    }
+}
+//-->
+</script> 
 
 </head>
 
@@ -39,7 +56,7 @@
         <div id="gtco-logo" style="font-size: 3.5vh;">
           <a href="index.html">
             <span id="mainLogo">WINNERS</span> <br>
-            <span id="subLogo" style=" margin-left: 10%;"></span><em id="subLogo" style="font-size: 3vh;">CHAMBERS</em></span>
+            <span id="subLogo" style="margin-left: 10%;"></span><em id="subLogo" style="font-size: 3vh;">CHAMBERS</em></span>
           </a>
         </div>
       </div>
@@ -84,7 +101,7 @@
   <!-- End of Navigation Bar-->
 
    <!--/ Intro Skew Star /-->
-   <div class="intro intro-single route bg-image" style="background-image: url(img/DSC_8759.JPG); background-position-y: -240px;">
+   <div class="intro intro-single route bg-image" style="background-image: url(img/DSC_8759.JPG);">
     <div class="overlay-mf"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
@@ -121,7 +138,7 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="#" method="post" role="form" class="contactForm">
+                      <form action="" method="post" role="form" class="">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
                       <div class="row">
@@ -187,6 +204,15 @@
         </div>
       </div>
     </div>
+
+    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "144791803",
+    formId: "72e32f20-667e-43fe-81c9-b18d641c02e0"
+  });
+</script>
 
  <!-- Footer -->
  <footer class="site-footer">
