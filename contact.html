@@ -25,23 +25,6 @@
   <!-- Main Stylesheet File -->
 	<link rel="stylesheet" href="css/stylee.css">
   <link href="css/style.css" rel="stylesheet">
-  
-<script>
-  //--------------------------------
-// This code compares two fields in a form and submit it
-// if they're the same, or not if they're different.
-//--------------------------------
-function checkEmail(theForm) {
-    if (theForm.EMAIL_1.value != theForm.EMAIL_2.value)
-    {
-        alert('Those emails don\'t match!');
-        return false;
-    } else {
-        return true;
-    }
-}
-//-->
-</script> 
 
 </head>
 
@@ -138,7 +121,7 @@ function checkEmail(theForm) {
                     </h5>
                   </div>
                   <div>
-                      <form action="" method="post" role="form" class="">
+                      <form action="https://formsubmit.co/winnerschambersng@gmail.com" method="post" role="form" class="">
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
                       <div class="row">
@@ -156,10 +139,11 @@ function checkEmail(theForm) {
                         </div>
                         <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <input type="text" class="form-control" name="subject _subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                               <div class="validation"></div>
                             </div>
                         </div>
+                        <input type="hidden" name="_next" value="https://winnerschambers.com/thankyou.html">
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
@@ -186,7 +170,7 @@ function checkEmail(theForm) {
                     <ul class="list-ico">
                       <li><span class="ion-ios-location"></span> 135 EHI ROAD, ABA, ABIA STATE, NG</li>
                       <li><span class="ion-ios-telephone"></span>+234 803 225 3813</li>
-                      <li><span class="ion-email"></span> info@winnerschambers.com</li>
+                      <li><span class="ion-email"></span> winnerschambers.com</li>
                     </ul>
                   </div>
                   <div class="socials">
@@ -205,15 +189,6 @@ function checkEmail(theForm) {
       </div>
     </div>
 
-    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    region: "eu1",
-    portalId: "144791803",
-    formId: "72e32f20-667e-43fe-81c9-b18d641c02e0"
-  });
-</script>
-
  <!-- Footer -->
  <footer class="site-footer">
   <div class="container">
@@ -223,7 +198,7 @@ function checkEmail(theForm) {
         <ul class="footer-links">
           <li><a href="#"><i class="ion-ios-location"></i> &nbsp; 135 EHI ROAD, ABA, ABIA STATE, NG</a></li>
           <li><a href="#"><i class="ion-ios-telephone"></i> &nbsp; +234 803 225 3813</a></li>
-          <li><a href="mailto:info@winnerschambers.com"><i class="ion-email"></i> &nbsp; info@winnerschambers.com</a></li>
+          <li><a href="https://formsubmit.co/winnerschambersng@gmail.com"><i class="ion-email"></i> &nbsp; winnerschambers.com</a></li>
           <li><a href="https://wa.me/2348032253813"><i class="fab fa-whatsapp"></i> &nbsp; +234 803 225 3813</a></li>
         </ul>
       </div>
